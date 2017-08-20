@@ -44,7 +44,31 @@ class ViewController: UIViewController {
     
     }
     
+    @IBAction func clockColorSegmentToggled(_ sender: Any) {
+        
+        if (clockColorSegCtrl.selectedSegmentIndex == 0) {
+            clockLabel.textColor = UIColor.white
+        } else if (clockColorSegCtrl.selectedSegmentIndex == 1) {
+            clockLabel.textColor = UIColor.black
+        } else if (clockColorSegCtrl.selectedSegmentIndex == 2) {
+            clockLabel.textColor = UIColor.blue
+        } else if (clockColorSegCtrl.selectedSegmentIndex == 3) {
+            clockLabel.textColor = UIColor.green
+        }
+    }
     
+    @IBAction func backgroundColorSegmentToggled(_ sender: Any) {
+        
+        if (backgroundColorSegCtrl.selectedSegmentIndex == 0) {
+            self.view.backgroundColor = UIColor.black
+        } else if (backgroundColorSegCtrl.selectedSegmentIndex == 1) {
+            self.view.backgroundColor = UIColor.white
+        } else if (backgroundColorSegCtrl.selectedSegmentIndex == 2) {
+            self.view.backgroundColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
+        } else if (backgroundColorSegCtrl.selectedSegmentIndex == 3) {
+            self.view.backgroundColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
+        }
+    }
     
     @objc func updateTimer() {
         

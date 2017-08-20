@@ -13,6 +13,8 @@
 		83FE26961F4902EC00EAC61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FE26951F4902EC00EAC61B /* Assets.xcassets */; };
 		83FE26991F4902EC00EAC61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FE26971F4902EC00EAC61B /* LaunchScreen.storyboard */; };
 		83FE26A11F49034200EAC61B /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83FE26A01F49034200EAC61B /* digital-7.ttf */; };
+		83FE26A41F49099100EAC61B /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE26A31F49099100EAC61B /* RoundedCorner.swift */; };
+		83FE26A61F490A0F00EAC61B /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE26A51F490A0F00EAC61B /* RoundedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		83FE26981F4902EC00EAC61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83FE269A1F4902EC00EAC61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83FE26A01F49034200EAC61B /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "digital-7.ttf"; path = "../../../../../../Downloads/Digital Clock/digital-7.ttf"; sourceTree = "<group>"; };
+		83FE26A31F49099100EAC61B /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		83FE26A51F490A0F00EAC61B /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		83FE26A21F49092A00EAC61B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				83FE26A31F49099100EAC61B /* RoundedCorner.swift */,
+				83FE26A51F490A0F00EAC61B /* RoundedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83FE26A61F490A0F00EAC61B /* RoundedView.swift in Sources */,
+				83FE26A41F49099100EAC61B /* RoundedCorner.swift in Sources */,
 				83FE26911F4902EC00EAC61B /* ViewController.swift in Sources */,
 				83FE268F1F4902EC00EAC61B /* AppDelegate.swift in Sources */,
 			);
