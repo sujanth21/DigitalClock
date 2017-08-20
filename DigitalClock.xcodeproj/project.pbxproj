@@ -12,6 +12,7 @@
 		83FE26941F4902EC00EAC61B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FE26921F4902EC00EAC61B /* Main.storyboard */; };
 		83FE26961F4902EC00EAC61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FE26951F4902EC00EAC61B /* Assets.xcassets */; };
 		83FE26991F4902EC00EAC61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FE26971F4902EC00EAC61B /* LaunchScreen.storyboard */; };
+		83FE26A11F49034200EAC61B /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83FE26A01F49034200EAC61B /* digital-7.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		83FE26951F4902EC00EAC61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83FE26981F4902EC00EAC61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83FE269A1F4902EC00EAC61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FE26A01F49034200EAC61B /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "digital-7.ttf"; path = "../../../../../../Downloads/Digital Clock/digital-7.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		83FE268D1F4902EC00EAC61B /* DigitalClock */ = {
 			isa = PBXGroup;
 			children = (
+				83FE26A21F49092A00EAC61B /* Views */,
 				83FE268E1F4902EC00EAC61B /* AppDelegate.swift */,
 				83FE26901F4902EC00EAC61B /* ViewController.swift */,
 				83FE26921F4902EC00EAC61B /* Main.storyboard */,
 				83FE26951F4902EC00EAC61B /* Assets.xcassets */,
 				83FE26971F4902EC00EAC61B /* LaunchScreen.storyboard */,
+				83FE26A01F49034200EAC61B /* digital-7.ttf */,
 				83FE269A1F4902EC00EAC61B /* Info.plist */,
 			);
 			path = DigitalClock;
+			sourceTree = "<group>";
+		};
+		83FE26A21F49092A00EAC61B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 				83FE26991F4902EC00EAC61B /* LaunchScreen.storyboard in Resources */,
 				83FE26961F4902EC00EAC61B /* Assets.xcassets in Resources */,
 				83FE26941F4902EC00EAC61B /* Main.storyboard in Resources */,
+				83FE26A11F49034200EAC61B /* digital-7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
